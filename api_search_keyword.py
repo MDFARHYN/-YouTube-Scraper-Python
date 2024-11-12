@@ -2,7 +2,7 @@ from googleapiclient.discovery import build
 import csv
 
 # Define your API Key here
-API_KEY = 'AIzaSyDL1uNtSQ2h62JiHrpCCMGQehkDMGgeaIs'  # Replace with your actual API key
+API_KEY = ''  # Replace with your actual API key
 # Build the YouTube API service
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
